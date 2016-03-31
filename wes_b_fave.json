@@ -1,0 +1,16 @@
+{
+  "author": "Karthik Ram",
+  "github_user": "karthik",
+  "description": "This is my Grand Budapest palette",
+  "keywords": "hipster",
+  "date": "2016-03-31",
+  "version": "1.0",
+  "colors": [
+ "#F1BB7B",
+ "#FD6467",
+ "#5B1A18",
+ "#D67236"
+  ],
+  "type": "continuous",
+  "package": "wesanderson"
+}
