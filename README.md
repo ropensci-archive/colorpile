@@ -2,22 +2,20 @@
 
 ## Specification
 
-### Metadata:
+Each color palette is a JSON file containing the vector of HEX colors, as well
+as metadata about the palette. Here are mandatory metadata fields:
 
-**Palette Groups** are a set of color palettes. Here is some palette group
-metadata:
+ - `author`: a list of the authors (e.g. Karthik Ram)
+ - `github_user`: a list of authors' Github accountsa (karthik)
+ - `description`: a short description of the palette (Wes Anderson-themed colors)
+ - `keywords`: a list of keywords, e.g. (hipster, film, indie-film)
+ - `date`: an ISO 8601 date
+ - `colors`: a list of colors in hex
+ - `type`: either `sequential`, `diverging`, `qualitative` 
+ - `package`: the name of the group this palette belongs to
 
- - Palette group (e.g. wesanderson)
- - Author (e.g. Karthik Ram)
 
-**Palettes** are the actual vectors of colors. Here are some palette metadata
-attributes:
 
- - Name of palette (e.g. zissou)
- - Data nature (e.g. sequential, diverging, qualitative)
- - Number of colors (e.g. 12)
- - Colorblind safe (e.g. true/false)
- - Black & White safe (e.g. true/false)
- - Is ordered (e.g. true/false)
+
 
 

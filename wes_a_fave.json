@@ -14,6 +14,7 @@
    "version":[
       "1.0"
    ],
+   "length": 21,
    "colors":[
       "#3B9AB2",
       "#479FB5",
@@ -37,10 +38,6 @@
       "#EE3700",
       "#F21A00"
    ],
-   "type":[
-      "continuous"
-   ],
-   "package":[
-      "wesanderson"
-   ]
+   "type": "continuous",
+   "package":"wesanderson"
 }
