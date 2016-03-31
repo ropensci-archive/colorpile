@@ -15,5 +15,9 @@ attributes:
 
  - Name of palette (e.g. zissou)
  - Data nature (e.g. sequential, diverging, qualitative)
+ - Number of colors (e.g. 12)
  - Colorblind safe (e.g. true/false)
- - Black & White sade (e.g. true/false)
+ - Black & White safe (e.g. true/false)
+ - Is ordered (e.g. true/false)
+
+
