@@ -1,0 +1,10 @@
+{
+  "name": "BrBG",
+  "authors": ["Cynthia Brewer"],
+  "colors": ["#543005", "#8C510A", "#BF812D", "#DFC27D", "#F6E8C3", "#F5F5F5", "#C7EAE5", "#80CDC1", "#35978F", "#01665E", "#003C30"],
+  "type": "diverging",
+  "github_user": "mikabr",
+  "description": "Provides color schemes for maps (and other graphics) designed by Cynthia Brewer as described at http://colorbrewer2.org",
+  "keywords": [""],
+  "date": "2016-04-01"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Oranges",
+  "authors": ["Cynthia Brewer"],
+  "colors": ["#FFF5EB", "#FEE6CE", "#FDD0A2", "#FDAE6B", "#FD8D3C", "#F16913", "#D94801", "#A63603", "#7F2704"],
+  "type": "sequential",
+  "github_user": "mikabr",
+  "description": "Provides color schemes for maps (and other graphics) designed by Cynthia Brewer as described at http://colorbrewer2.org",
+  "keywords": [""],
+  "date": "2016-04-01"
+}

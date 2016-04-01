@@ -1,0 +1,10 @@
+{
+  "name": "Dark2",
+  "authors": ["Cynthia Brewer"],
+  "colors": ["#1B9E77", "#D95F02", "#7570B3", "#E7298A", "#66A61E", "#E6AB02", "#A6761D", "#666666"],
+  "type": "qualitative",
+  "github_user": "mikabr",
+  "description": "Provides color schemes for maps (and other graphics) designed by Cynthia Brewer as described at http://colorbrewer2.org",
+  "keywords": [""],
+  "date": "2016-04-01"
+}

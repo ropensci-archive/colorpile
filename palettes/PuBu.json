@@ -1,0 +1,10 @@
+{
+  "name": "PuBu",
+  "authors": ["Cynthia Brewer"],
+  "colors": ["#FFF7FB", "#ECE7F2", "#D0D1E6", "#A6BDDB", "#74A9CF", "#3690C0", "#0570B0", "#045A8D", "#023858"],
+  "type": "sequential",
+  "github_user": "mikabr",
+  "description": "Provides color schemes for maps (and other graphics) designed by Cynthia Brewer as described at http://colorbrewer2.org",
+  "keywords": [""],
+  "date": "2016-04-01"
+}

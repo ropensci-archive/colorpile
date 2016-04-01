@@ -1,0 +1,10 @@
+{
+  "name": "PuBuGn",
+  "authors": ["Cynthia Brewer"],
+  "colors": ["#FFF7FB", "#ECE2F0", "#D0D1E6", "#A6BDDB", "#67A9CF", "#3690C0", "#02818A", "#016C59", "#014636"],
+  "type": "sequential",
+  "github_user": "mikabr",
+  "description": "Provides color schemes for maps (and other graphics) designed by Cynthia Brewer as described at http://colorbrewer2.org",
+  "keywords": [""],
+  "date": "2016-04-01"
+}

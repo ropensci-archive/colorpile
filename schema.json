@@ -63,7 +63,7 @@
         },
 
         "type": {
-            "description": "One of \"divergent\", \"qualitative\", \"sequential\", \"other\"",
+            "description": "One of \"diverging\", \"qualitative\", \"sequential\", \"other\"",
             "type": "string",
             "pattern": "^(sequential|diverging|qualitative|other)$",
             "required": true
