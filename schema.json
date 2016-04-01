@@ -1,0 +1,67 @@
+{
+    "title": "farbenfroh",
+    "description": "farbenfroh thing",
+    "type": "object",
+
+    "properties": {
+        "name": {
+            "description": "The short name of the colour scheme",
+            "type": "string",
+            "pattern:": "^[^ /]+$",
+            "required": true
+        },
+
+        "author": {
+            "description": "The author of the colour scheme",
+            "type": "string",
+            "required": true
+        },
+
+        "github_user": {
+            "description": "The GitHub username of the package",
+            "type": "string",
+            "required": false
+        },
+
+        "description": {
+            "description": "A description, possibly longer than the name",
+            "type": "string",
+            "required": false
+        },
+
+        "keywords": {
+            "description": "The author of the colour scheme",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true,
+            "required": false
+        },
+
+        "date": {
+            "description": "Date scheme was created or modified",
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+            "required": true
+        },
+
+        "colors": {
+            "description": "The actual colors!",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "pattern": "^#[A-Fa-f0-9]{6}$"
+            },
+            "minItems": 1,
+            "required": true
+        },
+
+        "type": {
+            "description": "The author of the colour scheme",
+            "type": "string",
+            //"pattern": "^(sequential|diverging|qualitative)$",
+            "required": true
+        }
+    }
+}

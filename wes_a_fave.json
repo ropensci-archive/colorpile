@@ -1,10 +1,10 @@
 {
+  "name": "wes_a_fave",
   "author": "Karthik Ram",
   "github_user": "karthik",
   "description": "This is my color palette",
-  "keywords": "hipster",
+  "keywords": ["hipster"],
   "date": "2016-03-31",
-  "version": "1.0",
   "colors": [
     "#3B9AB2",
     "#479FB5",
@@ -28,6 +28,5 @@
     "#EE3700",
     "#F21A00"
   ],
-  "type": "continuous",
-  "package": "wesanderson"
+  "type": "continuous"
 }
