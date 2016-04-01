@@ -1,0 +1,7 @@
+{
+    "name": "foo",
+    "authors": ["bar"],
+    "date": "0000-00-00",
+    "colors": ["#ffffff"],
+    "type": "other"
+}
