@@ -12,10 +12,9 @@ to_json <- function(x, exclude=NULL, include=NULL) {
   jsonlite::toJSON(x)
 }
 
-library(purrr)
 expect_true(v("minimal.json"))
 palette_files <- list.files("../palettes")
-walk(palette_files, function(palette_file) {
+purrr::walk(palette_files, function(palette_file) {
   expect_true(v(file.path("../palettes", palette_file), verbose = TRUE))
 })
 
