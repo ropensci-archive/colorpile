@@ -11,3 +11,5 @@ install:
     - sudo apt-get install -y libv8-dev
     - ./travis-tool.sh install_deps
     - ./travis-tool.sh install_github ropenscilabs/jsonvalidate
+
+script: ./travis-tool.sh run_tests
