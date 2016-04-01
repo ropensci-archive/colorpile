@@ -1,0 +1,10 @@
+{
+  "name": "GrandBudapest",
+  "authors": ["Karthik Ram"],
+  "colors": ["#F1BB7B", "#FD6467", "#5B1A18", "#D67236"],
+  "type": "qualitative",
+  "github_user": "karthik",
+  "description": "Palette generated mostly from 'Wes Anderson' movies.",
+  "keywords": [""],
+  "date": "2016-04-01"
+}

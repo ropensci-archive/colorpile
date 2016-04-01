@@ -1,0 +1,10 @@
+{
+  "name": "Darjeeling",
+  "authors": ["Karthik Ram"],
+  "colors": ["#FF0000", "#00A08A", "#F2AD00", "#F98400", "#5BBCD6"],
+  "type": "qualitative",
+  "github_user": "karthik",
+  "description": "Palette generated mostly from 'Wes Anderson' movies.",
+  "keywords": [""],
+  "date": "2016-04-01"
+}

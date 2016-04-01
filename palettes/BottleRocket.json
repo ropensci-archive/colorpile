@@ -1,0 +1,10 @@
+{
+  "name": "BottleRocket",
+  "authors": ["Karthik Ram"],
+  "colors": ["#A42820", "#5F5647", "#9B110E", "#3F5151", "#4E2A1E", "#550307", "#0C1707"],
+  "type": "qualitative",
+  "github_user": "karthik",
+  "description": "Palette generated mostly from 'Wes Anderson' movies.",
+  "keywords": [""],
+  "date": "2016-04-01"
+}
