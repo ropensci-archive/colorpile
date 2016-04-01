@@ -1,5 +1,5 @@
 library(testthat)
-v <- jsonvalidate::json_validator("../schema.json")
+v <- jsonvalidate::json_validator("../schemas/palette.json")
 
 read_lines <- function(x) paste(readLines(x), collapse = "\n")
 to_json <- function(x, exclude=NULL, include=NULL) {

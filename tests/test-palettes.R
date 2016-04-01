@@ -1,8 +1,8 @@
 ## These are tests of the schema.  We'll use the jsonvalidate package
 ## to run this, but it could be run happily from node if I spoke js :)
 library(testthat)
-v_palette <- jsonvalidate::json_validator("../schema.json")
-v_group <- jsonvalidate::json_validator("../schema_group.json")
+v_palette <- jsonvalidate::json_validator("../schemas/palette.json")
+v_group <- jsonvalidate::json_validator("../schemas/group.json")
 
 read_lines <- function(x) paste(readLines(x), collapse="\n")
 to_json <- function(x, exclude=NULL, include=NULL) {
