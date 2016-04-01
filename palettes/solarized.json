@@ -1,0 +1,10 @@
+{
+  "name": "solarized",
+  "authors": ["Ethan Schoonover"],
+  "colors": ["#d33682", "#dc322f", "#cb4b16", "#b58900", "#859900", "#2aa198", "#268bd2", "#6c71c4"],
+  "type": "qualitative",
+  "github_user": "altercation",
+  "description": "Precision colors for machines and people",
+  "keywords": [""],
+  "date": "2016-04-01"
+}
