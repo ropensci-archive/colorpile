@@ -1,0 +1,57 @@
+{
+    "title": "colorpiler_groups",
+    "description": "colorpile group format",
+    "type": "object",
+    "properties": {
+        "name": {
+            "description": "The short name of the colour scheme",
+            "type": "string",
+            "pattern:": "^[^ /]+$",
+            "required": true
+        },
+
+        "authors": {
+            "description": "vector of name(s) of palette group author(s)",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true,
+            "required": true,
+            "minItems": 1
+        },
+
+        "github_user": {
+            "description": "The GitHub username of the palette group's author (or primary author if there is more than one name in authors)",
+            "type": "string",
+            "required": false
+        },
+
+        "description": {
+            "description": "A description, possibly longer than the name",
+            "type": "string",
+            "required": false
+        },
+
+        "keywords": {
+            "description": "Vector of palette group keywords",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true,
+            "required": false
+        },
+
+        "palettes": {
+            "description": "Vector of palette names, each in hex format",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "pattern": "^[^ /]+$"
+            },
+            "minItems": 1,
+            "required": true
+        }
+    }
+}

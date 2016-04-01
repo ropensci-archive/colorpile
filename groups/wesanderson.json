@@ -1,0 +1,24 @@
+{
+    "name": "wesanderson",
+    "authors": ["Karthik Ram"],
+    "palettes": [
+        "BottleRocket",
+        "BottleRocket2",
+        "Cavalcanti",
+        "Chevalier",
+        "Darjeeling",
+        "Darjeeling2",
+        "FantasticFox",
+        "GrandBudapest",
+        "GrandBudapest2",
+        "Moonrise1",
+        "Moonrise2",
+        "Moonrise3",
+        "Royal1",
+        "Royal2",
+        "Rushmore",
+        "Zissou"
+    ],
+    "github_user": "mikabr",
+    "description": "Provides colour schemes based on Wes Anderson movies"
+}
